@@ -77,7 +77,7 @@ This project demonstrates MQTT (Message Queuing Telemetry Transport) implementat
 
 ```bash
 # Clone or navigate to the project directory
-cd /opt/codebase/hawk/mqtt_poc
+cd <path_to_code_dir>/mqtt_poc
 
 # Start EMQX broker
 docker-compose up -d

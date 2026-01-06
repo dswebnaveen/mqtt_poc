@@ -8,7 +8,7 @@ This is a quick reference guide to get you started with MQTT in minutes.
 
 ```bash
 # Navigate to project directory
-cd /opt/codebase/hawk/mqtt_poc
+cd <path_to_code_dir>/mqtt_poc
 
 # Start the broker
 docker-compose up -d
