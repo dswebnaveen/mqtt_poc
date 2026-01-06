@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  emqx:
+    image: emqx/emqx
+    container_name: emqx
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+      - "8084:8083"
+      - "18083:18083"
+    environment:
+      EMQX_DASHBOARD__DEFAULT_USERNAME: admin
+      EMQX_DASHBOARD__DEFAULT_PASSWORD: Admin@123
